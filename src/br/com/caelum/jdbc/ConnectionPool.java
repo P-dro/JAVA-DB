@@ -22,7 +22,7 @@ public class ConnectionPool {
 	}
 	
 	public Connection getConnection() throws SQLException {
-		System.out.print("adiquirindo conex√£o...");
+		System.out.print("adiquirindo conex„o...");
 		Connection connection = dataSource.getConnection();
 		System.out.println(" ok");
 		return connection;
